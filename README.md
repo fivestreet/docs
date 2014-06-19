@@ -1,4 +1,5 @@
-# Welcome to Move/FiveStreet's LeadParser Documentation Pages
+# LeadParser Documentation
 
-Here you will find:
+### Links
+
 + [Lead Vendor Integration Guide](https://github.com/fivestreet/docs.leadparser.com/wiki/Lead-Vendor-Integration-Guide)
