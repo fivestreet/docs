@@ -1,0 +1,71 @@
+No.     Time           Source                Destination           Protocol Length Info
+   7742 640.762979000  192.168.2.112         184.73.167.20         HTTP     503    POST /192d9fb7 HTTP/1.1  (application/json)
+
+Hypertext Transfer Protocol
+    POST /192d9fb7 HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): POST /192d9fb7 HTTP/1.1\r\n]
+            [Message: POST /192d9fb7 HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: POST
+        Request URI: /192d9fb7
+        Request Version: HTTP/1.1
+    Accept: application/json\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Content-Type: application/json\r\n
+    Content-Length: 949\r\n
+        [Content length: 949]
+    User-Agent: Ruby\r\n
+    Host: bin.mailgun.net\r\n
+    \r\n
+    [Full request URI: http://bin.mailgun.net/192d9fb7]
+    [HTTP request 1/1]
+    [Response in frame: 7754]
+JavaScript Object Notation: application/json
+    Object
+        Member Key: "uid"
+            String value: p457c9f7a07
+        Member Key: "handle"
+            String value: handle_1@domain1.com
+        Member Key: "user_uid"
+            String value: u2197f171b0
+        Member Key: "sender"
+            String value: no-reply@domain1.com
+        Member Key: "recipient"
+            String value: handle_1@domain1.com
+        Member Key: "subject"
+            String value: Webhook test for handle_1@domain1.com
+        Member Key: "html_body_url"
+            String value: http://localhost:5000/fake_s3/email_b71a74d040b8d0ccddb7.html
+        Member Key: "text_body_url"
+            String value: http://localhost:5000/fake_s3/email_b71a74d040b8d0ccddb7.txt
+        Member Key: "raw_eml_url"
+            String value: http://localhost:5000/fake_s3/email_b71a74d040b8d0ccddb7.eml
+        Member Key: "read_from_inbox"
+            False value
+        Member Key: "lead_source"
+            String value: Realtor.com
+        Member Key: "lead_name"
+            String value: John Smith
+        Member Key: "lead_email"
+            String value: jsmith@company.com
+        Member Key: "lead_phone"
+            String value: 757-555-1212
+        Member Key: "lead_mls"
+            String value: AB76543210
+        Member Key: "lead_property_address"
+            String value: 10 Main Street, Anytown, VA, 54321
+        Member Key: "lead_message"
+            String value: This is a test message from the lead.
+        Member Key: "lead_father"
+            String value: Eric Bashkoff
+        Member Key: "lead_mother"
+            String value: Debby Bashkoff
+        Member Key: "lead_daughter_1"
+            String value: Jessica Bashkoff
+        Member Key: "lead_daughter_2"
+            String value: Alexandra Bashkoff
+        Member Key: "timestamp"
+            Number value: 1412286834
+        Member Key: "signature"
+            String value: 435aa2fcff027e2081d32aa514c0b96da00f71bc3595d529783924fea008259a
